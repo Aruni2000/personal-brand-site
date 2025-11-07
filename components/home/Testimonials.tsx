@@ -12,63 +12,108 @@ function SectionTitle({ title }) {
 // Experience data
 const experiences = [
   {
-    role: "Software Engineer",
-    company: "Fardar Express Domestic (Private) Limited",
-    companyUrl: "https://www.fdedomestic.com",
+    role: "Associate Mobile Developer",
+    company: "EPITONI (Pvt) Ltd",
+    companyUrl: "https://www.epitoni.com", // optional placeholder URL
     type: "Full-time",
-    duration: "Jul 2024 - Nov 2025",
-    location: "Nugegoda, Western Province, Sri Lanka",
-    locationType: "On-site",
-    description: "Worked on impactful web development projects that enhanced operational efficiency and improved user experience through modern, scalable solutions.",
+    duration: "Jul 2024 – Present",
+    location: "Sri Lanka",
+    locationType: "Hybrid",
+    description:
+      "Developed and maintained cross-platform mobile applications using Flutter and Dart.",
     achievements: [
-      "Developed and enhanced the Order Management System (OMS) with inventory management, real-time tracking, and automated delivery routing",
-      "Built full-stack application using PHP, MySQL, JavaScript, and React with optimized database queries and RESTful APIs",
-      "Designed responsive frontend interfaces with React.js and Bootstrap following modern UI/UX principles",
-      "Implemented backend logic for order processing, validation, role-based access control, and maintained clean code using Git"
+      "Developing and maintaining cross-platform mobile applications using Flutter and Dart",
+      "Integrating RESTful APIs and Firebase services to enhance app functionality",
+      "Collaborating with designers and backend developers to deliver seamless user experiences",
     ],
-    technologies: ["PHP", "MySQL", "JavaScript", "React.js", "Bootstrap", "REST APIs", "Git", "UI/UX"]
+    technologies: ["Flutter", "Dart", "Firebase", "REST APIs", "UI/UX"],
   },
   {
-    role: "Software Engineering Intern",
-    company: "Fardar Express Domestic (Private) Limited",
-    companyUrl: "https://www.fdedomestic.com",
-    type: "Internship",
-    duration: "Jul 2024 - Jan 2025",
-    location: "Nugegoda, Western Province, Sri Lanka",
-    locationType: "On-site",
-    description: "Gained hands-on experience in software development and real-world project environments, contributing to multiple web projects.",
+    role: "Full Stack Developer",
+    company: "HISSL (mathru.lk)",
+    companyUrl: "https://mathru.lk",
+    type: "Part-time",
+    duration: "Jul 2025 – Present",
+    location: "Sri Lanka",
+    locationType: "Remote",
+    description:
+      "Developed and maintained a mobile application using Flutter and Dart, integrating APIs and Firebase services for seamless data synchronization and real-time updates.",
     achievements: [
-      "Collaborated with senior engineers to design and develop scalable web applications",
-      "Worked on both frontend and backend tasks, strengthening Core PHP and MySQL database skills",
-      "Enhanced problem-solving and teamwork skills through agile workflows, code reviews, and Git best practices"
+      "Developed and maintained a mobile application using Flutter and Dart",
+      "Integrated APIs and Firebase services for data synchronization, user authentication, and real-time updates",
     ],
-    technologies: ["Core PHP", "MySQL", "JavaScript", "jQuery", "RESTful APIs"]
-  }
+    technologies: ["Flutter", "Dart", "Firebase", "APIs"],
+  },
 ];
 
 // SVG Icons as components
 const BriefcaseIcon = () => (
-  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+  <svg
+    className="w-6 h-6"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+    />
   </svg>
 );
 
 const CalendarIcon = () => (
-  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+  <svg
+    className="w-4 h-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+    />
   </svg>
 );
 
 const MapPinIcon = () => (
-  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+  <svg
+    className="w-4 h-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+    />
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+    />
   </svg>
 );
 
 const ExternalLinkIcon = () => (
-  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+  <svg
+    className="w-4 h-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+    />
   </svg>
 );
 
@@ -76,11 +121,11 @@ function Experience() {
   return (
     <div className="flex flex-col text-left max-w-5xl w-full m-auto px-4 py-12">
       <SectionTitle title="Professional Experience" />
-      
+
       <div className="relative">
         {/* Timeline line */}
         <div className="hidden md:block absolute left-[29px] top-0 bottom-0 w-0.5 bg-gray-700"></div>
-        
+
         <div className="space-y-12">
           {experiences.map((item, index) => {
             return (
@@ -98,7 +143,7 @@ function Experience() {
                       <h3 className="text-xl font-bold text-white mb-2">
                         {item.role}
                       </h3>
-                      <a 
+                      <a
                         href={item.companyUrl}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -137,8 +182,13 @@ function Experience() {
                     </h4>
                     <ul className="space-y-2">
                       {item.achievements.map((achievement, idx) => (
-                        <li key={idx} className="text-gray-300 flex items-start text-sm leading-relaxed">
-                          <span className="text-fun-pink mr-2 mt-1 flex-shrink-0 text-xs">●</span>
+                        <li
+                          key={idx}
+                          className="text-gray-300 flex items-start text-sm leading-relaxed"
+                        >
+                          <span className="text-fun-pink mr-2 mt-1 flex-shrink-0 text-xs">
+                            ●
+                          </span>
                           <span>{achievement}</span>
                         </li>
                       ))}
@@ -152,7 +202,7 @@ function Experience() {
                     </h4>
                     <div className="flex flex-wrap gap-2">
                       {item.technologies.map((tech, idx) => (
-                        <span 
+                        <span
                           key={idx}
                           className="px-2.5 py-1 bg-opacity-10 bg-fun-pink border border-fun-pink-light text-fun-gray rounded text-xs font-medium hover:bg-opacity-20 transition-colors"
                         >

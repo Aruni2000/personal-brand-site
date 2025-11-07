@@ -24,18 +24,18 @@ module.exports = {
     },
     extend: {
       colors: {
-        bg: "#000a1f",
+        bg: "#050505",
         "fun-gray-light": "#b2bbcf",
         "fun-gray": "#7b89a8",
         "fun-gray-medium": "#767c85",
         "fun-gray-darker": "#2a2a2c",
         "fun-gray-dark": "#1F1F20",
         "fun-gray-darkest": "#141414",
-        "fun-pink": "#00c7ff",
-        "fun-pink-darker": "#000f2e",
-        "fun-pink-darkest": "#000c24",
-        "fun-pink-dark": "#192742",
-        "fun-pink-light": "#009ac5",
+        "fun-pink": "#0490f3",
+        "fun-pink-darker": "#070707",
+        "fun-pink-darkest": "#050505",
+        "fun-pink-dark": "#1e242c",
+        "fun-pink-light": "#91bae1",
       },
       rotate: {
         '360': '360deg'
