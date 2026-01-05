@@ -9,26 +9,25 @@ type Testimonial = {
   job: string
 };
 
-
 export const skills: Skill[] = [
   {
-    title: "HTML",
+    title: "Flutter",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
   },
   {
-    title: "CSS",
+    title: "Dart",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
   },
   {
-    title: "Javascript",
+    title: "Firebase",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   },
   {
-    title: "Sass",
+    title: "GCP",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
   },
   {
-    title: "TailwindCSS",
+    title: "Neo4J",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
   },
   {

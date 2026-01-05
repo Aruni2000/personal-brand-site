@@ -66,8 +66,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="max-w-4xl w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-4 text-center text-fun-gray border-t border-fun-pink-dark">
-        <p className="flex flex-col items-center justify-center ">
+      <div className="max-w-4xl w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-4 text-left text-fun-gray border-t border-fun-pink-dark">
+        <p className="flex flex-col items-start justify-start">
           <div className="inline-flex items-center uppercase text-xs font-bold tracking-widest">
             Made with{" "}
             <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
@@ -98,7 +98,7 @@ function Footer() {
               </span>
             </div>
           </div>
-          <div className="mt-2 text-xs ">
+          <div className="mt-2 text-xs">
             Made by{" "}
             <a
               href="pasindurathnathilake19@gmail.com"
@@ -110,22 +110,6 @@ function Footer() {
           </div>
         </p>
       </div>
-      {/* <div className="mt-8 text-center sm:text-right sm:-mt-12">
-        <a
-          className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50"
-          href="https://github.com/braydentw/braydentw.io"
-          target="_blank"
-          rel="nooreferrer"
-        >
-          <Image
-            src="/static/icons/github.svg"
-            width={16}
-            height={16}
-            alt="Github Icon"
-          />
-          <span className="ml-2">View Source Code </span>
-        </a>
-      </div> */}
     </footer>
   );
 }

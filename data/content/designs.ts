@@ -9,7 +9,8 @@ export const designs: Design[] = [
     label: "Mobile Shopping App",
     img: "/static/designs/mobile-shopping-app.jpg",
     link: "https://dribbble.com/shots/9458498-Mobile-Shopping-App",
-  },
+  }
+  ,
   {
     label: "Modern App Design",
     img: "/static/designs/modern-app-design.png",

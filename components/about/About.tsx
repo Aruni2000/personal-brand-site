@@ -7,7 +7,7 @@ export default function About() {
         {/* Left Side: Career Journey */}
         <div className="flex flex-col justify-center">
           <p className="text-lg text-gray-400 mb-4 leading-relaxed text-justify">
-I am a Software Engineering graduate and Associate Mobile Developer with a passion for technology. I have experience in programming and mobile development, which helps me build practical and easy-to-use applications. I enjoy solving problems, learning new skills, and working on real projects.
+       I am a Software Engineering graduate and Associate Mobile Developer with a passion for technology. I have experience in programming and mobile development, which helps me build practical and easy-to-use applications. I enjoy solving problems, learning new skills, and working on real projects.
           </p>
           <p className="text-lg text-gray-400 mb-4 leading-relaxed text-justify">
       Moving from academics to professional work has improved my skills in software design, coding, testing, and teamwork. I am careful, dedicated, and eager to grow while contributing to innovative projects.
@@ -64,14 +64,14 @@ I am a Software Engineering graduate and Associate Mobile Developer with a passi
               </svg>
               <div className="text-justify">
                 <h3 className="text-xl font-semibold">
-                  Foundation Programme for Bachelors Degree
+                  Diploma in English (Batch 40) 
                 </h3>
                 <p className="text-blue-500 font-medium">
-                  NSBM Green University, Sri Lanka
+                 Esoft Metro Campus
                 </p>
-                <p className="text-gray-500 text-sm">Mar 2021 - Mar 2022 | Colombo, Sri Lanka</p>
+                <p className="text-gray-500 text-sm">Mar 2021 - Mar 2022</p>
                 <p className="text-gray-500 mt-1">
-                  Successfully completed the Foundation Programme in preparation for Bachelors studies
+                 Successfully completed the Diploma in English, improving reading, writing, speaking, and communication skills for academic and professional use.
                 </p>
               </div>
             </div>

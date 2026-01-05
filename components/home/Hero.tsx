@@ -8,7 +8,7 @@ function Hero() {
         className="relative heroElem w-full pt-20 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
         style={{ maxWidth: "1200px" }}
       >
-        <p className="text-xl mb-5"> Hi</p>
+        <p className="text-xl mb-5"> Pasindu Rathnathikake</p>
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-3xl md:text-4xl lg:text-5xl tracking-tighter mb-10 font-bold heroShinyBg">
           Focused on  <span className="heroShiny1 text-fun-pink">developing</span> and{" "}
           <span className="heroShiny2 text-fun-pink">designing seamless</span> mobile experiences.
@@ -41,7 +41,7 @@ function Hero() {
           <img
             className="sqD bottom-[-320px] right-[65%] sm:right-[45%] w-16 h-16"
             style={{ animationDelay: "0.6s" }}
-            src="/static/doodles/hero/tr.png"
+            src="/static/doodles/hero/ab.png"
           />
           <img
             className="sqD right-[-60px] sm:right-0 bottom-[-180px] lg:[5%] w-10 h-10"
@@ -53,7 +53,7 @@ function Hero() {
             src="/static/doodles/hero/ab.png"
           />
           <img
-            className="sqD left-[-35px] bottom-[-85px] sm:bottom-[-100px] sm:left-5 opacity-40 w-10 h-10"
+            className="sqD left-[-35px] bottom-[-85px] sm:bottom-[-100px] sm:left-5 opacity-40 w-4 h-4"
             style={{ animationDelay: "0.9s" }}
             src="/static/doodles/hero/ab.png"
           />

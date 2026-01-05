@@ -81,7 +81,7 @@ export const footer: Footer = {
         },
         {
           name: "LinkedIn",
-          link: "https://www.linkedin.com/in/aruni-nethmini-73877b2a6/",
+          link: "https://www.linkedin.com/in/pasindu-rathnathilake-1b0534281",
           icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },
@@ -91,12 +91,12 @@ export const footer: Footer = {
         //   icon: "/static/icons/dribbble-f.svg",
         //   leavesWebsite: true,
         // },
-        {
-          name: "Fiverr",
-          link: "https://www.fiverr.com/s/WEKQRyE",
-          icon: "/static/icons/indiehackers-f.svg",
-          leavesWebsite: true,
-        },
+        // {
+        //   name: "Fiverr",
+        //   link: "https://www.fiverr.com/s/WEKQRyE",
+        //   icon: "/static/icons/indiehackers-f.svg",
+        //   leavesWebsite: true,
+        // },
         {
           name: "Email",
           link: "pasindurathnathilake19@gmail.com",

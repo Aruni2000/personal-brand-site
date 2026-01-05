@@ -90,7 +90,7 @@ function ProjectCard({ project }: { project: Project }) {
     // Mathru App
     if (projectIdentifier.includes('mathru')) {
       return {
-        role: 'Mobile Developer',
+        role: 'Full Stack Developer',
         overview: 'An AI-powered pregnancy tracking app that supports expecting mothers with personalized insights, symptom analysis, and real-time guidance.',
         problem: 'Many expecting mothers lack access to continuous health guidance and struggle to track symptoms and baby development accurately.',
         solution: 'Mathru provides smart symptom analysis, emotional support, and personalized recommendations — helping mothers monitor their health and their babys growth with real-time updates and doctor connectivity.'
@@ -110,7 +110,7 @@ function ProjectCard({ project }: { project: Project }) {
     // Notebook Mobile App (Gemify)
     if (projectIdentifier.includes('notebook') || projectIdentifier.includes('gemify')) {
       return {
-        role: 'Frontend Developer',
+        role: 'Full Stack Developer',
         overview: 'A modern, fully redesigned mobile application that enhances the Gemify platform with new functionalities and a refined user experience. The app focuses on seamless performance, responsive design, and real-time interaction to deliver an optimized gem trading and management experience.',
         problem: 'Gem traders and businessmen needed a simple yet powerful tool to manage and grow their gem business efficiently, with better stock management and real-time updates.',
         solution: 'A redesigned mobile app enhancing the Gemify platform with improved performance, real-time interaction, intuitive stock management, and an optimized user experience for gem traders.'
@@ -203,8 +203,7 @@ function ProjectCard({ project }: { project: Project }) {
           <div className="mt-3">
             <button
               onClick={() => setIsOpen(true)}
-              className="inline-block px-4 py-1.5 text-sm font-medium bg-fun-pink text-white rounded-md hover:opacity-80 transition"
-            >
+              className="inline-block px-4 py-1.5 text-sm font-medium bg-fun-pink text-white rounded-md hover:opacity-80 transition">
               View Case Study
             </button>
           </div>
@@ -262,7 +261,6 @@ function ProjectCard({ project }: { project: Project }) {
                     {caseStudyContent.problem}
                   </p>
                 </div>
-
                 <div>
                   <h4 className="flex items-center gap-2 text-fun-pink text-lg font-semibold">
                     <span>⚡</span> Solution
